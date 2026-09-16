@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, Button, Alert } from 'react-native';
 import React from 'react';
 import { Ionicons } from '@react-native-vector-icons/ionicons';
 // import { MaterialIcons } from '@react-native-vector-icons/material-icons';
@@ -43,7 +43,11 @@ export default function App() {
         <Ionicons name="play-skip-forward" size={38} color={'white'}/>
         <Ionicons name="stats-chart" size={25} color={'white'}/>
       </View>
-      {/* <MaterialIcons name="setting" size={32} /> */}
+      <Button
+        title="Alert"
+        onPress={() => Alert.alert('Alert Button pressed')}
+        color='red'
+        />
       <StatusBar style="auto" />
     </View>
   );
@@ -96,7 +100,6 @@ const styles = StyleSheet.create({
     width: '100%',
     justifyContent: 'space-around',
     alignItems: 'center',
-    marginBottom: 50,
   },
   flexrow: {
     flexDirection: 'row',
