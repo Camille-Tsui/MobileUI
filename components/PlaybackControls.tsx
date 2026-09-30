@@ -6,7 +6,7 @@ interface PlayackContolsProps {
   endTime: string;
 }
 
-export function PlayackContols ({currentTime, endTime}: PlayackContolsProps) {
+export function PlaybackContols ({currentTime, endTime}: PlayackContolsProps) {
     return (
         <>
               <View style={styles.timeBar}>

@@ -5,7 +5,7 @@ import { Ionicons } from '@react-native-vector-icons/ionicons';
 
 import { TrackCover } from './components/TrackCover';
 import { MenuBar } from './components/MenuBar';
-import { PlayackContols } from './components/PlaybackControls';
+import { PlaybackContols } from './components/PlaybackControls';
 import { NavBar } from './components/NavBar';
 // import { MaterialIcons } from '@react-native-vector-icons/material-icons';
 
@@ -22,7 +22,7 @@ export default function App() {
 
       <MenuBar/>
 
-      <PlayackContols 
+      <PlaybackContols 
       currentTime={"0:55"} 
       endTime={"3:26"}/>
 
