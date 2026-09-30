@@ -1,7 +1,12 @@
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { Ionicons } from '@react-native-vector-icons/ionicons';
 
-export function PlayackContols ({currentTime, endTime}) {
+interface PlayackContolsProps {
+  currentTime: string;
+  endTime: string;
+}
+
+export function PlayackContols ({currentTime, endTime}: PlayackContolsProps) {
     return (
         <>
               <View style={styles.timeBar}>

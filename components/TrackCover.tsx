@@ -1,6 +1,13 @@
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, ImageSourcePropType } from 'react-native';
 
-export function TrackCover({ source, title, artist, folder }) {
+interface TrackCoverProps {
+  source: ImageSourcePropType;
+  title: string;
+  artist: string;
+  folder: string;
+}
+
+export function TrackCover({ source, title, artist, folder }: TrackCoverProps) {
     return (
             <View style= {styles.songInfo}>
             <Image 

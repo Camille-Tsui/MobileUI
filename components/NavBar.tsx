@@ -4,7 +4,7 @@ import { Ionicons } from '@react-native-vector-icons/ionicons';
 export function NavBar() {
     return (
         <View style={styles.navBar}>
-            <Ionicons name="mucical-note" size={32} color={'white'}/>
+            <Ionicons name="musical-note" size={32} color={'white'}/>
             <Ionicons name="play-circle" size={32} color={'white'}/>
             <Ionicons name="disc" size={32} color={'white'}/>
             <Ionicons name="person" size={32} color={'white'}/>

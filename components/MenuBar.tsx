@@ -29,8 +29,4 @@ flexrow: {
     flexDirection: 'row',
     gap: 10,
   },
-icon: {
-    size: 32,
-    color: 'white',
-}
 });
