@@ -1,4 +1,3 @@
-import { StyleSheet } from 'react-native';
 import { Tabs } from "expo-router";
 import { Ionicons } from '@react-native-vector-icons/ionicons';
 
@@ -17,14 +16,14 @@ export default function TabLayout() {
                 },
 
                 tabBarActiveTintColor: 'white',
-                tabBarInactiveTintColor: 'white',
+                tabBarInactiveTintColor: 'lightgray',
             }}
         >
         <Tabs.Screen
-            name="index"
+            name="playlist"
             options={{
             tabBarIcon: ({ color, size }) => (
-                <Ionicons name="home" color={color} size={size} />
+                <Ionicons name="musical-note" color={color} size={size} />
             ),
             }}
         />
@@ -44,16 +43,15 @@ export default function TabLayout() {
             ),
             }}
         />
+        <Tabs.Screen
+            name="artists"
+            options={{
+            tabBarIcon: ({ color, size }) => (
+                <Ionicons name="person" color={color} size={size} />
+            ),
+            }}
+        />
     </Tabs>
     );
 };
 
-const styles = StyleSheet.create({
-    navBar: {
-        flexDirection: 'row',
-        justifyContent: 'space-around',
-        width: '100%',
-        backgroundColor: '#00000070',
-        padding: 10,
-    },
-})

@@ -1,21 +1,35 @@
 import { StyleSheet, Text, View, Image } from 'react-native';
 
 import { Album } from '../../components/Album';
+import { SearchBar } from '../../components/SearchBar';
 
 export default function Albums() {  
     return (
         <View style={styles.container}> 
-            <Album
-             name={"Brand Music"}
-             />
+            <SearchBar
+            text={"Search for an album..."}
+            />
+            
             <Album
              name={"Brand Music"}
              />
              <Album
              name={"Brand Music"}
              />
+            <Album
+             name={"Download"}
+             />
              <Album
-             name={"Brand Music"}
+             name={"Funny RingTone"}
+             />
+             <Album
+             name={"Music"}
+             />
+             <Album
+             name={"Playlist"}
+             />
+             <Album
+             name={"Unwanted"}
              />
         </View>
     );
