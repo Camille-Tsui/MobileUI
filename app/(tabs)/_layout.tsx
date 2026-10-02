@@ -9,14 +9,14 @@ export default function TabLayout() {
                 headerShown: false,
 
                 tabBarStyle: {
-                    backgroundColor: '#000000C0',
+                    backgroundColor: 'black',
                     borderTopWidth: 0,
                     shadowOpacity: 0,
                     elevation: 0,
                 },
 
                 tabBarActiveTintColor: 'white',
-                tabBarInactiveTintColor: 'lightgray',
+                tabBarInactiveTintColor: 'gray',
 
 
                 animation: 'shift',
