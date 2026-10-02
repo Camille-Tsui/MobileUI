@@ -20,6 +20,7 @@ export default function Artists() {
                 <Artist artist='Ado'/>
                 <Artist artist='なとり'/>
                 <Artist artist='Carvan Place'/>
+                <Artist artist='Chainsaw Man'/>
                 <Artist artist='DECO*27'/>
                 <Artist artist='Eve'/>
                 <Artist artist='HUNTR/X'/>
@@ -45,6 +46,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'flex-start',
     gap: 10,
-    padding: 10
+    padding: 10,
   }
 });

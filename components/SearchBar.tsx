@@ -8,10 +8,10 @@ interface SearchBarProps {
 export function SearchBar({text}: SearchBarProps) {
     return (
         <View style={styles.searchBar}>
-            <Ionicons name="search" size={32} color={'white'}/>
+            <Ionicons name="search" size={32} color={'lightgray'}/>
             <Text style={styles.text}>{text}</Text>
-            <Ionicons name="menu" size={32} color={'white'}/>
-            <Ionicons name="settings" size={32} color={'white'}/>
+            <Ionicons name="menu" size={32} color={'lightgray'}/>
+            <Ionicons name="settings" size={32} color={'lightgray'}/>
         </View>
     );
 }
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-around',
     },
     text: {
-        color:'white',
+        color:'lightgray',
         width: '60%',
     }
 })
