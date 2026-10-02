@@ -32,7 +32,15 @@ export default function TabLayout() {
             name="cover"
             options={{
             tabBarIcon: ({ color, size }) => (
-                <Ionicons name="home" color={color} size={size} />
+                <Ionicons name="play-circle" color={color} size={size} />
+            ),
+            }}
+        />
+        <Tabs.Screen
+            name="albums"
+            options={{
+            tabBarIcon: ({ color, size }) => (
+                <Ionicons name="disc" color={color} size={size} />
             ),
             }}
         />
