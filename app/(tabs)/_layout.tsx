@@ -17,6 +17,10 @@ export default function TabLayout() {
 
                 tabBarActiveTintColor: 'white',
                 tabBarInactiveTintColor: 'lightgray',
+
+
+                animation: 'shift',
+                sceneStyle: { backgroundColor: 'black'}
             }}
         >
         <Tabs.Screen
