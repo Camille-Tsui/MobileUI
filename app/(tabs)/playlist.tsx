@@ -1,9 +1,11 @@
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { Song } from '../../components/Song';
+import { QueBar } from '../../components/QueBar';
 
 export default function Playlist() {
     return (
         <View style={styles.container}>
+            <QueBar/>
             <Song
                 title={"Dive Back in Time"}
                 artist={"JAWS"}
