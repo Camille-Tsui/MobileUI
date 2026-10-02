@@ -26,7 +26,7 @@ export default function Cover() {
       currentTime={"0:55"} 
       endTime={"3:26"}/>
 
-      <NavBar/>
+      {/* <NavBar/> */}
       
       <StatusBar style="auto" />
     </View>
@@ -41,6 +41,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-evenly',
     paddingBlock: 50,
-    paddingBottom: 0,
   },
 });

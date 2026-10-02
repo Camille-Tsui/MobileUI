@@ -4,8 +4,22 @@ import { Ionicons } from '@react-native-vector-icons/ionicons';
 
 export default function TabLayout() {
     return (
-        <Tabs>
+        <Tabs
+        //customizing nav bar
+            screenOptions={{
+                headerShown: false,
 
+                tabBarStyle: {
+                    backgroundColor: '#000000C0',
+                    borderTopWidth: 0,
+                    shadowOpacity: 0,
+                    elevation: 0,
+                },
+
+                tabBarActiveTintColor: 'white',
+                tabBarInactiveTintColor: 'white',
+            }}
+        >
         <Tabs.Screen
             name="index"
             options={{
