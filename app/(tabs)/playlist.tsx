@@ -11,18 +11,37 @@ export default function Playlist() {
                 artist={"JAWS"}
                 folder={"Music"}
                 duration={"2:53"}
+                />
+            <Song
+                title={"IN_MY_HEAD"}
+                artist={"なとり"}
+                folder={"Music"}
+                duration={"3:26"}
+                source={require("../../assets/IN_MY_HEAD.png")}
             />
             <Song
                 title={"No. 1"}
                 artist={"Obey Me"}
                 folder={"Music"}
-                duration={"4:11"}
+                duration={"4:04"}
+            />
+            <Song
+                title={"Dramaturgy"}
+                artist={"Eve"}
+                folder={"Music"}
+                duration={"4:02"}
             />
             <Song
                 title={"Young Girl A"}
                 artist={"Will Steston"}
                 folder={"Music"}
                 duration={"4:02"}
+            />
+            <Song
+                title={"Chained"}
+                artist={"なとり"}
+                folder={"Music"}
+                duration={"3:16"}
             />
             <Song
                 title={"Terminal"}

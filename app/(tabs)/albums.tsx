@@ -7,7 +7,7 @@ export default function Albums() {
     return (
         <View style={styles.container}> 
             <SearchBar
-            text={"Search for an album..."}
+            text={"Search an album..."}
             />
             
             <Album
@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     flexDirection: 'row',
     flexWrap: 'wrap',
-    gap: 5,
+    gap: 10,
     height: '100%',
     padding: 5,
   },
